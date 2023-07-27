@@ -1,0 +1,268 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.navbar {
+  z-index: 3;
+}
+
+.navbar .navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+  color: black;
+}
+
+.navbar .nav-link {
+  font-size: 16px;
+  color: black;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+.bg-transparent {
+  transition: all ease-in 0.3s;
+}
+.nav-color {
+  background-color: orange;
+  transition: all ease-in-out 0.3s;
+}
+
+.c-item {
+  height: 350px;
+}
+
+.c-img {
+  height: 100%;
+  object-fit: cover;
+}
+.carousel-inner {
+  width: 100%;
+  height: auto;
+}
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  background-size: cover;
+  position: absolute;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+}
+
+.desa-section {
+  text-align: center;
+  padding: 2rem;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+#tentang p {
+  color: black;
+  font-size: 18px;
+}
+#profil {
+  padding: 100px 0;
+  background: url(https://images.unsplash.com/photo-1528826542659-27db5adea13c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1345&q=80);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+
+#profil i {
+  color: white;
+  font-size: 75px;
+}
+.data-penduduk .row {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.data-penduduk {
+  text-align: center;
+  padding: 10px 0;
+  color: white;
+  font-weight: bold;
+  font-size: 5px;
+}
+
+.text-data-penduduk {
+  font-family: "Lobster", cursive;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 1);
+  color: orangered;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.data-penduduk .col-lg-4 {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.icon-data h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.icon-data h4 {
+  font-size: 22px;
+  font-weight: 600;
+}
+.struktur-section {
+  text-align: center;
+}
+
+.galeri-section {
+  text-align: center;
+}
+
+.maps-section {
+  text-align: center;
+}
+
+#visi-misi {
+  background-color: rgb(233, 110, 110);
+  padding: 3rem;
+}
+
+#visi-misi h2 {
+  color: black;
+  font-size: 40px;
+  font-weight: 600;
+}
+.visi h3 {
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.8;
+}
+
+.visi p {
+  color: black;
+  font-size: 19px;
+}
+
+.misi h3 {
+  color: black;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 1.8;
+}
+
+.misi p {
+  color: black;
+  font-size: 19px;
+  line-height: 1.8;
+}
+#galeri h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+.card-fitur h5 {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.card-fitur span {
+  color: #fff;
+  font-size: 18px;
+}
+
+.card-fitur h6 {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.card-fitur .overlay {
+  background-color: rgba(0, 0, 0, 0);
+  opacity: 0;
+  transition: all ease-in-out 0.3s;
+}
+
+.card-fitur .overlay:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+}
+.card img {
+  width: 100%;
+  display: block;
+}
+
+#maps {
+  height: 100vh;
+  margin: 0;
+}
+#maps h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.maps-info {
+  padding-top: 30px;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 0;
+  border: none;
+}
+
+footer h4 {
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
+}
+.footer {
+  padding: 10px 0;
+  width: 100%;
+}
+.footer a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer-logo {
+  width: 85%;
+  height: auto;
+}
+.footer-p {
+  font-size: 20px;
+}
+
+#footer .footer-kanan {
+  font-size: 15px;
+}
+.footer-kanan a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer-kanan p {
+  color: black;
+  font-size: 18px;
+}
+
+.footer-tengah p {
+  color: black;
+  font-size: 18px;
+}
+
+.footer-tengah a {
+  text-decoration: none;
+}

@@ -1,0 +1,60 @@
+@media screen and (max-width: 922px) {
+  #profil {
+    width: 100%;
+    height: auto;
+  }
+
+  .footer-logo {
+    width: 20%;
+    height: auto;
+  }
+
+  footer h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+
+  .footer-p {
+    color: black;
+    font-size: 17px;
+  }
+
+  .footer-tengah p {
+    color: black;
+    font-size: 17px;
+  }
+
+  .footer-kanan p {
+    color: black;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #profil {
+    width: 100%;
+    height: auto;
+  }
+  #profil i {
+    color: white;
+    font-size: 45px;
+  }
+
+  footer {
+    position: relative;
+  }
+  .footer-judul {
+    text-align: center;
+    font-size: 26px;
+    width: 100%;
+    font-weight: 600;
+  }
+  .footer-p {
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+}
