@@ -24,7 +24,16 @@
       class="navbar navbar-expand-lg navbar-light bg-transparent position-fixed w-100"
     >
       <div class="container">
-        <a class="navbar-brand" href="#">Desa Bumi Sejahtera</a>
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/3/37/Coat_of_Arms_of_Regency_Kutai_Timur.png"
+            alt="Logo"
+            width="28"
+            class="d-inline-block align-text-top"
+          />
+          Desa Bumi Sejahtera</a
+        >
+
         <button
           class="navbar-toggler"
           type="button"
@@ -44,7 +53,7 @@
               >
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="#">Sejarah</a>
+              <a class="nav-link" href="berita.html">Berita Desa</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -57,8 +66,15 @@
                 Profil
               </a>
               <ul class="dropdown-menu mx-2">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="tentang.html">Tentang Desa</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="sejarah.html">Sejarah desa</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="visi-misi.html">Visi & Misi</a>
+                </li>
                 <li><hr class="dropdown-divider" /></li>
                 <li>
                   <a class="dropdown-item" href="#">Something else here</a>
@@ -66,7 +82,7 @@
               </ul>
             </li>
             <li class="nav-item mx-2">
-              <a class="nav-link" href="#">Galeri</a>
+              <a class="nav-link" href="#galeri">Galeri</a>
             </li>
             <li class="nav-item mx-2">
               <a class="nav-link" href="#">Lokasi</a>
@@ -108,19 +124,31 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active c-item">
-            <img src="img/foto4.jpg" class="d-block w-100 c-img" alt="slide1" />
+            <img
+              src="img/foto6.jpeg"
+              class="d-block w-100 c-img"
+              alt="slide1"
+            />
             <div class="carousel-caption d-none d-md-block">
               <h2>First slide label</h2>
             </div>
           </div>
           <div class="carousel-item c-item">
-            <img src="img/foto2.jpg" class="d-block w-100 c-img" alt="slide2" />
+            <img
+              src="img/foto7.jpeg"
+              class="d-block w-100 c-img"
+              alt="slide2"
+            />
             <div class="carousel-caption d-none d-md-block">
               <h2>Second slide label</h2>
             </div>
           </div>
           <div class="carousel-item c-item">
-            <img src="img/foto5.jpg" class="d-block w-100 c-img" alt="slide3" />
+            <img
+              src="img/foto8.jpeg"
+              class="d-block w-100 c-img"
+              alt="slide3"
+            />
             <div class="carousel-caption d-none d-md-block">
               <h2>Third slide label</h2>
             </div>
@@ -147,32 +175,78 @@
       </div>
     </section>
 
-    <section id="tentang" class="py-5">
-      <div class="container">
-        <h2 class="desa-section">Desa Bumi Sejahtera</h2>
-        <hr />
-        <p>
-          Desa bumi sejahtera merupakan desa transmigrasi penempatan pada tahun
-          1989. Desa Bumi Sejahtera merupakan penempatan pertama di Kecamatan
-          Kaliorang sebagai satuan pemukiman transmigrasi. Terdapat 101 Kartu
-          Keluarga (KK) dari jawa tengah dan jawa barat kemudian di susul dari
-          trans lokal. Desa bumi sejahtera devinitiv pada tahun 2007.
-        </p>
-
-        <p>
-          Secara geografis Desa Bumi Sejahtera merupakan wilayah bagian dari
-          Kecamatan Kaliorang . Kabupaten Kutai Timur dan merupakan daerah
-          dataran rendah dengan batas-batas wilayah sebagai berikut :<br />
-          Sebelah Utara : Desa Benua Baru ILIR. Kec. Sangkulirang<br />
-          Sebelah Timur : Desa Maloy. Kec. Sangkulirang<br />
-          Sebelah Selatan : Desa Kaliorang. Kalorang<br />
-          Sebelah Barat : Desa Citra Manunggal Jaya.<br />
-          Kec Kaliorang Secara administratif Desa Bumi Sejahtera terdiri atas
-          Dua ( 2) Dusun 13 .Rukun Tetangga. Jumlah Penduduk: 1322 jiwa/orang (
-          392 KK), terdiri atas: - Laki-laki : 700 jiwa/orang - Perempuan : 622
-          jiwa/orang Masyarakat Desa Bumi Sejahtera sebagian besar memiliki mata
-          pencaharian utama sebagai Petani dan pekebun.
-        </p>
+    <section class="bar-menu mb-100">
+      <div class="container-fluid">
+        <div
+          class="row"
+          style="
+            box-shadow: 0px 10px 15px 1px rgba(0, 0, 0, 0.1),
+              0px 4px 6px 1px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            border: none;
+          "
+        >
+          <div class="main-bar-menu col-md col-sm-6 col-6 text-center py-3">
+            <a
+              href="index.html"
+              style="
+                text-decoration: none;
+                border: none;
+                cursor: pointer;
+                color: black;
+              "
+            >
+              <div class="row border-end">
+                <i class="fa fa-home" style="font-size: 100px"></i>
+                <h5>Profile</h5>
+              </div>
+            </a>
+          </div>
+          <div class="main-bar-menu col-md col-sm-6 col-6 text-center py-3">
+            <a
+              data-bs-toggle="modal"
+              data-bs-target="#exampleModal"
+              style="text-decoration: none; border: none; cursor: pointer"
+            >
+              <div class="row border-end">
+                <i class="fa fa-bullhorn" style="font-size: 100px"></i>
+                <h5>Pengumuman</h5>
+              </div>
+            </a>
+          </div>
+          <div class="main-bar-menu col-md col-sm-6 col-6 text-center py-3">
+            <a
+              href="berita.html"
+              style="
+                text-decoration: none;
+                border: none;
+                cursor: pointer;
+                color: black;
+              "
+            >
+              <div class="row border-end">
+                <i class="fa fa-newspaper" style="font-size: 100px"></i>
+                <h5>Berita Desa</h5>
+              </div>
+            </a>
+          </div>
+          <div class="main-bar-menu col-md col-sm-6 col-6 text-center py-3">
+            <a
+              href="#galeri"
+              style="
+                text-decoration: none;
+                border: none;
+                cursor: pointer;
+                color: black;
+              "
+            >
+              <div class="row border-start border-end">
+                <i class="fa fa-images" style="font-size: 100px"></i>
+                <h5>Gallery</h5>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -203,42 +277,125 @@
       </div>
     </section>
 
-    <section id="visi-misi">
+    <section id="berita" class="berita-terbaru py-5">
       <div class="container">
+        <h3 class="text-center py-5">BERITA TERBARU</h3>
         <div class="row">
-          <div class="col mb-4">
-            <h2 class="text-center">Visi & Misi</h2>
-            <hr />
-            <div class="row">
-              <div class="col-lg-6 col-sm-6 mb-4 text-center visi">
-                <h3>Visi</h3>
-                <p>Terwujudnya desa yg Mandiri, Sejahtera dan Bermartabat</p>
+          <div class="col-lg-4 col-sm-6 p-4">
+            <div class="thumbnail-berita">
+              <div class="card">
+                <img
+                  src="img/Berita.jpeg"
+                  class="img-fluid"
+                  style="width: 100%"
+                />
+                <div class="content-berita my-4 mx-3 px-4 pt-3 pb-5">
+                  <h4 class="judul-berita">Gotong Royong Warga</h4>
+                  <div class="d-flex text-dark">
+                    <p class="me-3">
+                      <i class="fa fa-calendar-alt mx-1"></i> 5 April
+                    </p>
+                  </div>
+                  <p class="deskripsi-berita">
+                    warga sedang melakukan gotong royong
+                  </p>
+                  <a href="">
+                    <p>
+                      <i class="text-muted selengkapnya">Selengkapnya</i
+                      ><i class="fas fa-angle-right p-2"></i>
+                    </p>
+                  </a>
+                </div>
               </div>
-              <div class="col-lg-6 col-sm-6 mb-4 text-center misi">
-                <h3>Misi</h3>
-                <p class="text-start">
-                  1. Sertifikasi lahan dan Penyelesaian Tapal batas desa<br />
-                  2.Lanjutan Peningkatan Jalan Usaha tani, Jalan Produksi dan
-                  Jalan Lingkungan Desa<br />
-                  3. Peningkatan sumber daya manusia petani Andalan dan petani
-                  muda<br />
-                  4. Peningkatan pendapatan asli Desa/PADes<br />
-                  5. Lanjutan peningkatan fasilitas umum - sarana pendidikan
-                  (TK,TPA,PASRAMAN,SD,SMP) -sarana kesehatan(Pus ban,Poskesdes,
-                  Posyandu DLL) -Sarana Ibadah (
-                  Mesjid,Pura,Mushollah,PHBI,PHDI) -Sarana Tempat Pemakaman
-                  Umum<br />
-                  6. Peningkatan sarana dan prasarana PKK, karang Taruna dan
-                  BUMDes<br />
-                  7. Pembangunan rumah layak Huni untuk seluruh pecahan KK
-                </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 p-4">
+            <div class="thumbnail-berita">
+              <div class="card">
+                <img
+                  src="img/Berita.jpeg"
+                  class="img-fluid"
+                  style="width: 100%"
+                />
+                <div class="content-berita my-4 mx-3 px-4 pt-3 pb-5">
+                  <h4 class="judul-berita">Gotong Royong Warga</h4>
+                  <div class="d-flex text-dark">
+                    <p class="me-3">
+                      <i class="fa fa-calendar-alt mx-1"></i> 5 April
+                    </p>
+                  </div>
+                  <p class="deskripsi-berita">
+                    warga sedang melakukan gotong royong
+                  </p>
+                  <a href="">
+                    <p>
+                      <i class="text-muted selengkapnya">Selengkapnya</i
+                      ><i class="fas fa-angle-right p-2"></i>
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 p-4">
+            <div class="thumbnail-berita">
+              <div class="card">
+                <img
+                  src="img/Berita.jpeg"
+                  class="img-fluid"
+                  style="width: 100%"
+                />
+                <div class="content-berita my-4 mx-3 px-4 pt-3 pb-5">
+                  <h4 class="judul-berita">Gotong Royong Warga</h4>
+                  <div class="d-flex text-dark">
+                    <p class="me-3">
+                      <i class="fa fa-calendar-alt mx-1"></i> 5 April
+                    </p>
+                  </div>
+                  <p class="deskripsi-berita">
+                    warga sedang melakukan gotong royong
+                  </p>
+                  <a href="">
+                    <p>
+                      <i class="text-muted selengkapnya">Selengkapnya</i
+                      ><i class="fas fa-angle-right p-2"></i>
+                    </p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 p-4">
+            <div class="thumbnail-berita">
+              <div class="card">
+                <img
+                  src="img/Berita.jpeg"
+                  class="img-fluid"
+                  style="width: 100%"
+                />
+                <div class="content-berita my-4 mx-3 px-4 pt-3 pb-5">
+                  <h4 class="judul-berita">Gotong Royong Warga</h4>
+                  <div class="d-flex text-dark">
+                    <p class="me-3">
+                      <i class="fa fa-calendar-alt mx-1"></i> 5 April
+                    </p>
+                  </div>
+                  <p class="deskripsi-berita">
+                    warga sedang melakukan gotong royong
+                  </p>
+                  <a href="">
+                    <p>
+                      <i class="text-muted selengkapnya">Selengkapnya</i
+                      ><i class="fas fa-angle-right p-2"></i>
+                    </p>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
     </section>
-
     <section id="galeri" class="py-5">
       <div class="container">
         <div class="row col">
@@ -338,16 +495,18 @@
       <div class="container">
         <div class="row pt-5 pb-100 px-5">
           <h2 class="text-center">Map Desa</h2>
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63830.56640485603!2d117.9207254420605!3d0.8193176128992374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x320b7519b14605f1%3A0x40e860122c3affdb!2sBumi%20Sejahtera%2C%20Kec.%20Kaliorang%2C%20Kabupaten%20Kutai%20Timur%2C%20Kalimantan%20Timur!5e0!3m2!1sid!2sid!4v1690165021424!5m2!1sid!2sid"
-            width="800"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            class="maps-info"
-          ></iframe>
+          <div class="row">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63830.56640485603!2d117.9207254420605!3d0.8193176128992374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x320b7519b14605f1%3A0x40e860122c3affdb!2sBumi%20Sejahtera%2C%20Kec.%20Kaliorang%2C%20Kabupaten%20Kutai%20Timur%2C%20Kalimantan%20Timur!5e0!3m2!1sid!2sid!4v1690165021424!5m2!1sid!2sid"
+              width="700"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              class="maps-info"
+            ></iframe>
+          </div>
         </div>
       </div>
     </section>

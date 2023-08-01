@@ -17,13 +17,15 @@ body {
 
 .navbar .navbar-brand {
   font-weight: 700;
-  font-size: 20px;
+  font-size: 25px;
   color: black;
+  z-index: 0;
 }
 
 .navbar .nav-link {
-  font-size: 16px;
+  font-size: 25px;
   color: black;
+  font-weight: 600;
 }
 
 .nav-link.active {
@@ -266,4 +268,44 @@ footer h4 {
 
 .footer-tengah a {
   text-decoration: none;
+}
+
+.thumbnail-berita {
+  background-color: white;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  overflow: hidden;
+}
+
+#berita {
+  background-color: #f7fafc;
+}
+
+.judul-berita {
+  font-weight: 600;
+}
+
+.selengkapnya:hover {
+  font-weight: bold;
+  color: black !important ;
+}
+
+.thumbnail-berita img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.thumbnail-berita img:hover {
+  -webkit-transform: scale(2.08);
+  transform: scale(1.1);
+}
+.deskripsi-berita {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+
+.bar-menu .main-bar-menu:hover {
+  border: none !important;
+  box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.5);
 }
