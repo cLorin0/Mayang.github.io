@@ -92,4 +92,19 @@
     font-size: 14px;
     line-height: 1.2rem;
   }
+
+  #maps h2 {
+    font-size: 25px;
+    margin-bottom: 2rem;
+  }
+
+  #maps iframe {
+    height: 75vh;
+    border: none;
+  }
+
+  #galeri h2 {
+    font-size: 25px;
+    margin-bottom: 2rem;
+  }
 }
