@@ -56,7 +56,7 @@
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 400px) {
   .c-item {
     height: 350px;
   }
