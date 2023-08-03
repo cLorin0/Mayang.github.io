@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
+
+    <link rel="stylesheet" href="owl.theme.default.css" />
+    <link rel="stylesheet" href="owl.carousel.min.css" />
+    <link rel="stylesheet" href="aos.css" />
+    <link
+      rel="stylesheet"
+      href="http://bukitmakmur-kotim.desa.id/themes/default/assets/css/theme-elements.css"
+    />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -18,6 +27,7 @@
 
     <title>Website Desa Bumi Sejahtera</title>
   </head>
+
   <body>
     <!--navbar-->
     <nav
@@ -172,7 +182,6 @@
         </div>
       </div>
     </nav>
-
     <section>
       <div
         class="banner-halaman"
@@ -187,7 +196,7 @@
             class="text-bannner"
             style="position: absolute; display: block; top: 20%; color: black"
           >
-            <h1 style="font-weight: bold">Berita Desa</h1>
+            <h1 style="font-weight: bold">Pemerintahan</h1>
             <nav>
               <ol class="breadcrumb">
                 <li class="breadcrumb-item">
@@ -198,12 +207,13 @@
                     ><i class="fa fa-home"></i
                   ></a>
                 </li>
-
-                <li class="breadcrumb-item active" style="color: black">
-                  Informasi
+                <li class="breadcrumb-item" aria-current="page">
+                  <a href="" class="text-decoration-none" style="color: black"
+                    >Pemerintahan</a
+                  >
                 </li>
                 <li class="breadcrumb-item active" style="color: black">
-                  Berita
+                  Stuktur Organisasi
                 </li>
               </ol>
             </nav>
@@ -211,119 +221,88 @@
         </div>
       </div>
     </section>
-
-    <section class="berita my-5">
-      <div class="container">
-        <div
-          class="row my-4 justify-content-center"
-          style="
-            box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.1);
-            background-color: white;
-            border-radius: 8px;
-          "
-          data-aos="fade-up"
-          data-aos-duration="500"
-        >
-          <div class="col-md-4 m-auto text-center">
-            <img
-              data-aos="fade-up"
-              data-aos-duration="600"
-              src="img/voly.jpeg"
-              class="img-fluid"
-              style="border-radius: 7px"
-            />
-          </div>
-          <div class="col-md-8 my-5">
-            <div class="container">
+    <section id="Stuktur" class="stuktur-desa mb-100">
+      <div class="row">
+        <div class="col-md-3">
+          <ul class="nav nav-list flex-column mb-5">
+            <li class="nav-item active">
+              <a class="nav-link" href="stuktur.html">Struktur Organisasi</a>
+            </li>
+            <li class="nav-item">
               <a
-                class="text-decoration-none"
-                href="berita/lomba-kegiatan-gerakan-penangganan-stunting-tk-"
-                style="color: black"
-              >
-                <h2
-                  class="judul-berita"
-                  data-aos="fade-up"
-                  data-aos-duration="800"
-                  style="font-weight: bold"
-                >
-                  Main Volly Dulu
-                </h2>
-                <div
-                  class="d-flex text-dark text-muted"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                >
-                  <p class="text-muted">rabu, 21 September 2022</p>
-                </div>
-                <p data-aos="fade-up" data-aos-duration="1200">
-                  para warga desa bumi sejahtera sdang bermain volly
-                </p>
-                <p
-                  class="text-muted selengkapnya"
-                  data-aos="fade-up"
-                  data-aos-duration="1400"
-                >
-                  Selengkapnya<i class="fas fa-angle-right p-2"></i>
-                </p>
+                class="nav-link"
+                href="http://bukitmakmur-kotim.desa.id/organisasi/detail?nid=68644"
+                >Kepala Desa
               </a>
-            </div>
-          </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="http://bukitmakmur-kotim.desa.id/organisasi/detail?nid=68646"
+                >Sekretaris Desa
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="http://bukitmakmur-kotim.desa.id/organisasi/detail?nid=68652"
+                >Kaur Keuangan
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="http://bukitmakmur-kotim.desa.id/organisasi/detail?nid=68651"
+                >Kaur Umum Dan Perencanaan
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="http://bukitmakmur-kotim.desa.id/organisasi/detail?nid=68648"
+                >Kaur Pembangunan
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="http://bukitmakmur-kotim.desa.id/organisasi/detail?nid=68645"
+                >Badan Permusyawaratan Desa
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="http://bukitmakmur-kotim.desa.id/organisasi/detail?nid=68650"
+                >Kaur Kesejahteraan Dan Pelayanan
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="http://bukitmakmur-kotim.desa.id/organisasi/detail?nid=68647"
+                >Kaur Pemerintahan
+              </a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="http://bukitmakmur-kotim.desa.id/organisasi/detail?nid=68649"
+                >Kaur Pemberdayaan Masyarakat
+              </a>
+            </li>
+          </ul>
         </div>
-
-        <div
-          class="row my-4 justify-content-center"
-          style="
-            box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.1);
-            background-color: white;
-            border-radius: 8px;
-          "
-          data-aos="fade-up"
-          data-aos-duration="500"
-        >
-          <div class="col-md-4 m-auto text-center">
-            <img
-              data-aos="fade-up"
-              data-aos-duration="600"
-              src="img/blt.jpeg"
-              class="img-fluid"
-              style="border-radius: 7px"
-            />
-          </div>
-          <div class="col-md-8 my-5">
-            <div class="container">
-              <a
-                class="text-decoration-none"
-                href="berita/pembagian-blt"
-                style="color: black"
-              >
-                <h2
-                  class="judul-berita"
-                  data-aos="fade-up"
-                  data-aos-duration="800"
-                  style="font-weight: bold"
-                >
-                  Pembagian BLT
-                </h2>
-                <div
-                  class="d-flex text-dark text-muted"
-                  data-aos="fade-up"
-                  data-aos-duration="1000"
-                >
-                  <p class="text-muted">Tuesday, 21 Juni 2021</p>
-                </div>
-
-                <p data-aos="fade-up" data-aos-duration="1200">
-                  Pelaksanaan kegiatan pembagian BLT dari dana Desa bumi
-                  sejahtera
-                </p>
-                <p
-                  class="text-muted selengkapnya"
-                  data-aos="fade-up"
-                  data-aos-duration="1400"
-                >
-                  Selengkapnya<i class="fas fa-angle-right p-2"></i>
-                </p>
-              </a>
+        <div class="col-md-9">
+          <h3 class="text-primary text-center text-dark display-5 m-5">
+            <strong>Struktur Organisasi</strong>
+          </h3>
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <img
+                src="http://bukitmakmur-kotim.desa.id/assets/files/data/website-desa-bukit-makmur-6202162006/images/struktur-organisasi-desa.png"
+                class="img-responsive"
+              />
             </div>
           </div>
         </div>

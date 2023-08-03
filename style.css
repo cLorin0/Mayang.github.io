@@ -17,27 +17,69 @@ body {
 
 .navbar .navbar-brand {
   font-weight: 700;
-  font-size: 25px;
-  color: black;
+  font-size: 23px;
+  color: white;
   z-index: 0;
 }
 
 .navbar .nav-link {
-  font-size: 25px;
+  font-size: 18px;
+  color: white;
+}
+.navbar .nav-link:hover {
   color: black;
-  font-weight: 600;
+  font-weight: 700;
+}
+.nav-link active {
+  font-weight: 700;
+  color: aqua;
 }
 
-.nav-link.active {
-  font-weight: 700;
+.nav-link active:hover {
+  color: aqua;
 }
 
 .bg-transparent {
   transition: all ease-in 0.3s;
 }
 .nav-color {
-  background-color: orange;
+  background-color: rgba(22, 185, 90, 0.884);
   transition: all ease-in-out 0.3s;
+}
+
+.nav-item:hover {
+  color: white !important;
+  font-weight: bold;
+}
+
+.nav-item:after {
+  content: "";
+  display: block;
+  width: 0%;
+  border-bottom: 3px solid black;
+  margin: 1px auto;
+}
+
+.nav-item:hover::after {
+  width: 100%;
+  transition: all 0.9s ease;
+}
+
+.dropdown-menu {
+  border: none !important;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+  background-color: white !important;
+  margin: 20px;
+}
+
+.dropdown-item:hover {
+  font-weight: bold;
+  color: or !important ;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin: 8px auto;
+  transition: all 0.9s ease;
 }
 
 .c-item {
@@ -308,4 +350,68 @@ footer h4 {
 .bar-menu .main-bar-menu:hover {
   border: none !important;
   box-shadow: 1px 1px 7px 1px rgba(0, 0, 0, 0.5);
+}
+
+#button-slider .owl-next:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.1);
+  background-color: black;
+  color: #dadada;
+}
+
+#button-slider .owl-prev:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.1);
+  background-color: black;
+  color: #dadada;
+}
+
+#button-slider .owl-prev {
+  height: 40px;
+  width: 40px;
+  margin: 10px 5px;
+  border: 1px solid black;
+  border-radius: 50%;
+  color: black;
+}
+
+#button-slider .owl-next {
+  height: 40px;
+  width: 40px;
+  margin: 10px 5px;
+  border: 1px solid black;
+  border-radius: 50%;
+  color: black;
+}
+
+.perangkat-desa .detail-perangkat {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+.perangkat-desa .detail-perangkat:hover {
+  text-decoration: underline;
+}
+
+.perangkat-desa img {
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+  width: 100px;
+}
+
+.perangkat-desa img:hover {
+  -webkit-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.perangkat-desa .card img {
+  background-color: white;
+  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 7%);
+  box-shadow: 0 5px 20px 0 rgb(0 0 0 / 7%);
+  border-radius: 8px;
+}
+
+.perangkat-desa .card {
+  border: none;
 }
