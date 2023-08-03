@@ -56,5 +56,40 @@
   }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 390px) {
+  .c-item {
+    height: 350px;
+  }
+
+  .c-img {
+    height: 100%;
+    object-fit: cover;
+  }
+  .navbar .navbar-brand {
+    font-size: 22px;
+  }
+  .footer-judul {
+    font-size: 18px;
+  }
+
+  .footer-p {
+    font-size: 15px;
+  }
+
+  footer h4 {
+    font-size: 18px;
+  }
+
+  .footer-kanan p {
+    font-size: 12px;
+  }
+
+  .footer-kanan i {
+    font-size: 12px;
+  }
+
+  .footer-tengah p {
+    font-size: 14px;
+    line-height: 1.2rem;
+  }
 }
