@@ -107,4 +107,59 @@
     font-size: 25px;
     margin-bottom: 2rem;
   }
+
+  #berita h3 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .judul-berita {
+    font-size: 20px;
+  }
+
+  .deskripsi-berita {
+    font-size: 15px;
+  }
+
+  .img-responsive {
+    width: 100%;
+  }
+
+  .text-bannner h1 {
+    font-size: 20px;
+  }
+  .content-artikel h1 {
+    font-size: 20px;
+  }
+
+  .content-artikel p {
+    font-size: 15px;
+  }
+  .content-artikel li {
+    font-size: 15px;
+  }
+  #Stuktur strong {
+    font-size: 20px;
+  }
+  .header-perangkat-desa h1 {
+    font-size: 20px;
+  }
+  .nama-perangkat h5 {
+    font-size: 18px;
+  }
+  .nama-perangkat p {
+    font-size: 15px;
+  }
+  #lembaga strong {
+    font-size: 20px;
+  }
+  #lembaga th {
+    font-size: 16px;
+  }
+  #lembaga a {
+    font-size: 15px;
+  }
+  #lembaga small {
+    font-size: 15px;
+  }
 }
