@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="owl.theme.default.css" />
+    <link rel="stylesheet" href="owl.carousel.min.css" />
+    <link rel="stylesheet" href="aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
+    <title>Website Desa Bumi Sejahtera</title>
+  </head>
+
+  <body>
+    <!--navbar-->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-transparent position-fixed w-100"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/3/37/Coat_of_Arms_of_Regency_Kutai_Timur.png"
+            alt="Logo"
+            width="28"
+            class="d-inline-block align-text-top"
+          />
+          Desa Bumi Sejahtera</a
+        >
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Profil
+              </a>
+              <ul class="dropdown-menu mx-2">
+                <li>
+                  <a class="dropdown-item" href="tentang.html">Tentang Desa</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="sejarah.html">Sejarah desa</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="visi-misi.html">Visi & Misi</a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="wilayah-desa.html"
+                    >Wilayah Desa</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Pemerintahan
+              </a>
+              <ul class="dropdown-menu mx-2">
+                <li>
+                  <a class="dropdown-item" href="stuktur.html"
+                    >Stuktur Organisasi</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="perangkat.html"
+                    >Perangkat desa</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="lembaga.html">Lembaga desa</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link active dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Informasi
+              </a>
+              <ul class="dropdown-menu mx-2">
+                <li>
+                  <a class="dropdown-item" href="berita.html">Berita</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="pengumuman.html">Pengumuman</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="agenda.html"
+                    >Agenda Kegiatan</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="galeri.html">Galeri</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="download.html">Download</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="apbdesa.html">APBDesa</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Potensi Desa
+              </a>
+              <ul class="dropdown-menu mx-2">
+                <li>
+                  <a class="dropdown-item" href="potensi-penduduk.html"
+                    >Potensi Penduduk</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="perangkat.html"
+                    >Potensi Wilayah</a
+                  >
+                </li>
+                <li>
+                  <a class="dropdown-item" href="sarana.html"
+                    >Sarana & Prasarana</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="layanan.html">Layanan</a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link" href="produk.html">Produk Hukum</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div
+        class="banner-halaman"
+        style="
+          background-image: url(img/q.svg);
+          height: 47vh;
+          background-size: cover;
+        "
+      >
+        <div class="container">
+          <div
+            class="text-bannner"
+            style="position: absolute; display: block; top: 20%; color: black"
+          >
+            <h1 style="font-weight: bold">Informasi</h1>
+            <nav>
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a
+                    href="index.html"
+                    class="text-decoration-none"
+                    style="color: black"
+                    ><i class="fa fa-home"></i
+                  ></a>
+                </li>
+                <li class="breadcrumb-item" aria-current="page">
+                  <a href="" class="text-decoration-none" style="color: black"
+                    >Informasi</a
+                  >
+                </li>
+                <li class="breadcrumb-item active" style="color: black">
+                  Galeri desa
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="galeri" class="py-5">
+      <div class="container">
+        <div class="row col">
+          <h2 class="text-center">Galeri</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+            <div class="card-fitur text-bg-dark position-relative">
+              <img src="img/foto4.jpg" class="card-img" alt="..." />
+
+              <div
+                class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100"
+              >
+                <div
+                  class="position-absolute top-50 start-50 translate-middle text-center w-100"
+                >
+                  <h5>Kantor Desa</h5>
+                  <span>Bumi Sejahtera</span>
+                  <h6>kec. kaliorang Kutim</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+            <div class="card-fitur text-bg-dark position-relative">
+              <img src="img/aa.jpeg" class="card-img" alt="..." />
+
+              <div
+                class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100"
+              >
+                <div
+                  class="position-absolute top-50 start-50 translate-middle text-center w-100"
+                >
+                  <h5>Kantor Desa</h5>
+                  <span>Bumi Sejahtera</span>
+                  <h6>kec. kaliorang Kutim</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+            <div class="card-fitur text-bg-dark position-relative">
+              <img src="img/voly.jpeg" class="card-img" alt="..." />
+
+              <div
+                class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100"
+              >
+                <div
+                  class="position-absolute top-50 start-50 translate-middle text-center w-100"
+                >
+                  <h5>Kantor Desa</h5>
+                  <span>Bumi Sejahtera</span>
+                  <h6>kec. kaliorang Kutim</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+            <div class="card-fitur text-bg-dark position-relative">
+              <img src="img/blt.jpeg" class="card-img" alt="..." />
+
+              <div
+                class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100"
+              >
+                <div
+                  class="position-absolute top-50 start-50 translate-middle text-center w-100"
+                >
+                  <h5>Kantor Desa</h5>
+                  <span>Bumi Sejahtera</span>
+                  <h6>kec. kaliorang Kutim</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card-fitur text-bg-dark position-relative">
+              <img src="img/hutan.jpeg" class="card-img" alt="..." />
+
+              <div
+                class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100"
+              >
+                <div
+                  class="position-absolute top-50 start-50 translate-middle text-center w-100"
+                >
+                  <h5>Kantor Desa</h5>
+                  <span>Bumi Sejahtera</span>
+                  <h6>kec. kaliorang Kutim</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer-akhir p-3">
+      <div class="container">
+        <div class="row p-5">
+          <div class="col-lg-1 col-md-3 col- mb-4 text-center">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/3/37/Coat_of_Arms_of_Regency_Kutai_Timur.png"
+              w-100
+              height="100"
+              alt=""
+              class="footer-logo"
+            />
+          </div>
+          <div class="col-lg-5 col-md-9 col-sm-6 mb-4 d-inline">
+            <h4 class="footer-judul">PEMERINTAHAN<br />Desa Bumi Sejahtera</h4>
+            <hr />
+            <p class="footer-p">
+              Website resmi desa bumi sejahtera, kecamatan kaliorang, kutai
+              timur, kalimantan timur
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 ms-auto d-inline">
+            <h4 class="footer">Tentang Kami</h4>
+            <div class="footer-tengah" style="list-style: none">
+              <a class="" href=""><p class="px-1">Visi Misi</p> </a>
+              <a class="" href=""><p class="px-1">Sejarah Desa</p> </a>
+              <a class="" href=""><p class="px-1">Pemerintahan</p> </a>
+              <a class="" href=""><p class="px-1">Galeri</p> </a>
+              <a class="" href=""><p class="px-1">Wilayah Desa</p> </a>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-6 ms-auto d-inline">
+            <h4 class="footer">Kontak Kami</h4>
+            <div class="footer-kanan" style="list-style: none">
+              <div class="row">
+                <div class="col-1 pe-2">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="col-11 mx-auto pe-1">
+                  <p>Jln. Raflesia RT.01</p>
+                </div>
+              </div>
+              <p><i class="fas fa-phone-alt pe-2"></i>+62 856-5211-3869</p>
+              <a href="mailto:bumisejahtera.klo5@gmail.com">
+                <p>
+                  <i class="fas fa-envelope pe-2"></i
+                  >bumisejahtera.klo5@gmail.com
+                </p></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="m-2 text-center">copyright@2023</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
