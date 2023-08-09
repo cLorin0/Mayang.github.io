@@ -491,6 +491,10 @@ footer h4 {
   width: 100%;
 }
 
+.img-thumbnail {
+  display: block;
+  width: 100%;
+}
 .panel > .table-responsive {
   margin-bottom: 0;
   border: 0;
