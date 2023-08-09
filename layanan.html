@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="responsive.css" />
+
+    <link rel="stylesheet" href="owl.theme.default.css" />
+    <link rel="stylesheet" href="owl.carousel.min.css" />
+    <link rel="stylesheet" href="aos.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
@@ -18,6 +22,7 @@
 
     <title>Website Desa Bumi Sejahtera</title>
   </head>
+
   <body>
     <!--navbar-->
     <nav
@@ -49,7 +54,7 @@
           <ul class="navbar-nav ms-auto">
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link active dropdown-toggle"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -198,9 +203,10 @@
                     ><i class="fa fa-home"></i
                   ></a>
                 </li>
-
-                <li class="breadcrumb-item active" style="color: black">
-                  Layanan
+                <li class="breadcrumb-item" aria-current="page">
+                  <a href="" class="text-decoration-none" style="color: black"
+                    >Layanan</a
+                  >
                 </li>
               </ol>
             </nav>
@@ -209,30 +215,57 @@
       </div>
     </section>
 
-    <section id="pengumuman" class="pengumuan-desa mb-100">
-      <div class="main mb-xlg">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-8">
-              <h3 class="text-dark display-5 mb-5 mt-5">
-                <strong>layanan</strong>
-              </h3>
-              <div class="row">
-                <div class="col-md-12 col-sm-12">
-                  <div class="alert alert-info">
-                    <p>
-                      <i class="fas fa-exclamation-triangle"></i>
-                      Saat ini kami tidak memiliki data "Layanan" untuk
-                      ditampilkan.
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <script type="text/javascript">
-                $(document).ready(function () {});
-              </script>
+    <section class="mx-auto">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-9 mx-auto">
+            <div class="row content-artikel p-4">
+              <h1 class="judul-berita text-center" style="font-weight: 700">
+                Layanan
+              </h1>
+              <img
+                src="img/pkk.jpeg"
+                class="img-fluid"
+                style="border-radius: 3%"
+              />
+              <p class="isi-artikel"></p>
+              <p><strong>Kesehatan&nbsp;&nbsp;&nbsp; </strong></p>
+              <ul>
+                <li>Posyandu</li>
+                <li>Posbindu</li>
+                <li>Poslan</li>
+                <li>Pustu</li>
+              </ul>
+
+              <p><strong>Keagamaan</strong></p>
+
+              <ul>
+                <li>Islam</li>
+                <ol>
+                  <li>Majelis taqlim</li>
+                  <li>Ikatan Remaja masjid</li>
+                  <li>PHBI (Panitia Hari Besar Islam)</li>
+                </ol>
+                <li>Hindu</li>
+                <ol>
+                  <li>Pharisadha</li>
+                  <li>Pharisadha Hindu Darma Indonesia (PHDI)</li>
+                </ol>
+              </ul>
+
+              <p><strong>Keamanan</strong></p>
+              <ul>
+                <li>Linmas</li>
+              </ul>
+
+              <p><strong>Pendidikan </strong></p>
+
+              <ul>
+                <li>Tk ABA</li>
+                <li>SDN 004 Kaliorang</li>
+                <li>SMPN 002 Kaliorang</li>
+              </ul>
             </div>
-            <div class="col-md-3 col-md-offset-1"></div>
           </div>
         </div>
       </div>
