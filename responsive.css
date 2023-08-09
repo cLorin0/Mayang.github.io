@@ -57,6 +57,9 @@
 }
 
 @media screen and (max-width: 450px) {
+  html {
+    font-size: 15px;
+  }
   .c-item {
     height: 350px;
   }
@@ -122,7 +125,8 @@
   }
 
   .img-responsive {
-    width: 100%;
+    display: block;
+    width: 70%;
   }
 
   .text-bannner h1 {
@@ -172,6 +176,9 @@
 }
 
 @media screen and (max-width: 400px) {
+  html {
+    font-size: 13px;
+  }
   .c-item {
     height: 350px;
   }
@@ -237,7 +244,8 @@
   }
 
   .img-responsive {
-    width: 100%;
+    display: block;
+    width: 70%;
   }
 
   .text-bannner h1 {
