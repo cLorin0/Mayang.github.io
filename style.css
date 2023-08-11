@@ -759,3 +759,69 @@ footer h4 {
 .list-group + .panel-footer {
   border-top-width: 0;
 }
+
+#galeri {
+  display: flex;
+  padding: 0 35px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: white;
+}
+
+.wrapper {
+  max-width: 1200px;
+  position: relative;
+}
+.wrapper .carouselgaleri {
+  font-size: 0px;
+  overflow: hidden;
+  cursor: pointer;
+  white-space: nowrap;
+  scroll-behavior: smooth;
+}
+
+.carouselgaleri .dragging {
+  scroll-behavior: auto;
+  cursor: grab;
+}
+.carouselgaleri .dragging img {
+  pointer-events: none;
+}
+
+.wrapper i {
+  top: 50%;
+  height: 46px;
+  width: 46px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  position: absolute;
+  text-align: center;
+  line-height: 46px;
+  background: black;
+  color: white;
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+.wrapper i:first-child {
+  left: -23px;
+  display: none;
+}
+.wrapper i:last-child {
+  right: -23px;
+}
+.carouselgaleri img {
+  height: 340px;
+  object-fit: cover;
+  margin-left: 14px;
+  width: calc(100% / 3);
+}
+
+.carouselgaleri img:first-child {
+  margin-left: 0px;
+}
+
+#marquee {
+  background-color: black;
+  color: white;
+}

@@ -1,4 +1,8 @@
 @media screen and (max-width: 922px) {
+  .carouselgaleri img {
+    width: calc(100% / 2);
+  }
+
   #profil {
     width: 100%;
     height: auto;
@@ -31,6 +35,9 @@
 }
 
 @media screen and (max-width: 576px) {
+  .carouselgaleri img {
+    width: 100%;
+  }
   #profil {
     width: 100%;
     height: auto;
@@ -177,9 +184,15 @@
   .berita p {
     font-size: 15px;
   }
+  .carouselgaleri img {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 400px) {
+  .carouselgaleri img {
+    width: 100%;
+  }
   html {
     font-size: 13px;
   }

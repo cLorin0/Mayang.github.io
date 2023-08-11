@@ -1,0 +1,88 @@
+<div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+            <div class="card-fitur text-bg-dark position-relative">
+              <img src="img/foto4.jpg" class="card-img" alt="..." />
+
+              <div
+                class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100"
+              >
+                <div
+                  class="position-absolute top-50 start-50 translate-middle text-center w-100"
+                >
+                  <h5>Kantor Desa</h5>
+                  <span>Bumi Sejahtera</span>
+                  <h6>kec. kaliorang Kutim</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+            <div class="card-fitur text-bg-dark position-relative">
+              <img src="img/aa.jpeg" class="card-img" alt="..." />
+
+              <div
+                class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100"
+              >
+                <div
+                  class="position-absolute top-50 start-50 translate-middle text-center w-100"
+                >
+                  <h5>Rapat Warga</h5>
+                  <span>Bumi Sejahtera</span>
+                  <h6>kec. kaliorang Kutim</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+            <div class="card-fitur text-bg-dark position-relative">
+              <img src="img/voly.jpeg" class="card-img" alt="..." />
+
+              <div
+                class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100"
+              >
+                <div
+                  class="position-absolute top-50 start-50 translate-middle text-center w-100"
+                >
+                  <h5>Kegiatan Volly Warga</h5>
+                  <span>Bumi Sejahtera</span>
+                  <h6>kec. kaliorang Kutim</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly">
+            <div class="card-fitur text-bg-dark position-relative">
+              <img src="img/blt.jpeg" class="card-img" alt="..." />
+
+              <div
+                class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100"
+              >
+                <div
+                  class="position-absolute top-50 start-50 translate-middle text-center w-100"
+                >
+                  <h5>Pembagian Bantuan</h5>
+                  <span>Bumi Sejahtera</span>
+                  <h6>kec. kaliorang Kutim</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card-fitur text-bg-dark position-relative">
+              <img src="img/hutan.jpeg" class="card-img" alt="..." />
+
+              <div
+                class="overlay position-absolute top-0 bottom-0 start-0 end-0 w-100 h-100"
+              >
+                <div
+                  class="position-absolute top-50 start-50 translate-middle text-center w-100"
+                >
+                  <h5>Kegiatan</h5>
+                  <span>Bumi Sejahtera</span>
+                  <h6>kec. kaliorang Kutim</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div--!>
+      </div>
